@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Gradequate</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="main.css" />
+		<script type="text/javascript" src="gradeCalc.js"></script>
+		<noscript><link rel="stylesheet" href="noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="gpa.html">GPA</a></li>
+							<li><a href="grades.html" class="active">Grades</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<center><h1>Input your grades below, and then hit "Submit"</h1></center>
+						<table id="example" class="display" style="width:100%">
+			<thead>
+					<tr>
+							<th>Course Name</th>
+							<th>1st Six Weeks Grade</th>
+							<th>2nd Six Weeks Grade</th>
+							<th>Current 3rd Six Weeks Grade</th>
+							<th>Desired Final Grade</th>
+					</tr>
+			</thead>
+			<tbody>
+					<tr>
+							<td><input type="text" id="row-1-course" name="row-1-course" value=""required></td>
+							<td><input type="text" id="row-1-swone" name="row-1-swone" value=""required></td>
+							<td><input type="text" id="row-1-swtwo" name="row-1-swtwo" value=""required></td>
+							<td><input type="text" id="row-1-swthree" name="row-1-swthreen" value=""required></td>
+							<td><input type="text" id="row-1-desired" name="row-1-desired" value=""required></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="row-2-course" name="row-2-course" value=""></td>
+						<td><input type="text" id="row-2-swone" name="row-2-swone" value=""></td>
+						<td><input type="text" id="row-2-swtwo" name="row-2-swtwo" value=""></td>
+						<td><input type="text" id="row-2-swthree" name="row-2-swthreen" value=""></td>
+						<td><input type="text" id="row-2-desired" name="row-2-desired" value=""></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="row-3-course" name="row-3-course" value=""></td>
+						<td><input type="text" id="row-3-swone" name="row-3-swone" value=""></td>
+						<td><input type="text" id="row-3-swtwo" name="row-3-swtwo" value=""></td>
+						<td><input type="text" id="row-3-swthree" name="row-3-swthreen" value=""></td>
+						<td><input type="text" id="row-3-desired" name="row-3-desired" value=""></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="row-4-course" name="row-4-course" value=""></td>
+						<td><input type="text" id="row-4-swone" name="row-4-swone" value=""></td>
+						<td><input type="text" id="row-4-swtwo" name="row-4-swtwo" value=""></td>
+						<td><input type="text" id="row-4-swthree" name="row-4-swthreen" value=""></td>
+						<td><input type="text" id="row-4-desired" name="row-4-desired" value=""></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="row-5-course" name="row-5-course" value=""></td>
+						<td><input type="text" id="row-5-swone" name="row-5-swone" value=""></td>
+						<td><input type="text" id="row-5-swtwo" name="row-5-swtwo" value=""></td>
+						<td><input type="text" id="row-5-swthree" name="row-5-swthreen" value=""></td>
+						<td><input type="text" id="row-5-desired" name="row-5-desired" value=""></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="row-6-course" name="row-6-course" value=""></td>
+						<td><input type="text" id="row-6-swone" name="row-6-swone" value=""></td>
+						<td><input type="text" id="row-6-swtwo" name="row-6-swtwo" value=""></td>
+						<td><input type="text" id="row-6-swthree" name="row-6-swthreen" value=""></td>
+						<td><input type="text" id="row-6-desired" name="row-6-desired" value=""></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="row-7-course" name="row-7-course" value=""></td>
+						<td><input type="text" id="row-7-swone" name="row-7-swone" value=""></td>
+						<td><input type="text" id="row-7-swtwo" name="row-7-swtwo" value=""></td>
+						<td><input type="text" id="row-7-swthree" name="row-7-swthreen" value=""></td>
+						<td><input type="text" id="row-7-desired" name="row-7-desired" value=""></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="row-8-course" name="row-8-course" value=""></td>
+						<td><input type="text" id="row-8-swone" name="row-8-swone" value=""></td>
+						<td><input type="text" id="row-8-swtwo" name="row-8-swtwo" value=""></td>
+						<td><input type="text" id="row-8-swthree" name="row-8-swthreen" value=""></td>
+						<td><input type="text" id="row-8-desired" name="row-8-desired" value=""></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="row-9-course" name="row-9-course" value=""></td>
+						<td><input type="text" id="row-9-swone" name="row-9-swone" value=""></td>
+						<td><input type="text" id="row-9-swtwo" name="row-9-swtwo" value=""></td>
+						<td><input type="text" id="row-9-swthree" name="row-9-swthreen" value=""></td>
+						<td><input type="text" id="row-9-desired" name="row-9-desired" value=""></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="row-10-course" name="row-10-course" value=""></td>
+						<td><input type="text" id="row-10-swone" name="row-10-swone" value=""></td>
+						<td><input type="text" id="row-10-swtwo" name="row-10-swtwo" value=""></td>
+						<td><input type="text" id="row-10-swthree" name="row-10-swthreen" value=""></td>
+						<td><input type="text" id="row-10-desired" name="row-10-desired" value=""></td>
+					</tr>
+
+			</tbody>
+			
+	</table>
+					<center><button onclick="submit()" type="submit" form="form1" value="Submit">Submit</button></center>
+					<p>&nbsp;</p>
+					</div>
+			</div>
+			<script> src="assets/js/jquery.min.js"; </script>
+			<script> src="assets/js/jquery.scrollex.min.js";</script>
+			<script> src="assets/js/jquery.scrolly.min.js";</script>
+			<script> src="assets/js/browser.min.js";</script>
+			<script>src="assets/js/breakpoints.min.js";</script>
+			<script> src="assets/js/util.js";</script>
+			<script> src="assets/js/main.js";</script>
+	</body>
+</html>
